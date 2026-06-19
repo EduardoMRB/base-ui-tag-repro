@@ -29,7 +29,7 @@
     (base-ui-button {:onClick (fn [] (js/console.log "click"))}
       "Other components work")
     ;; Comment the next line and see the button rendering just fine.
-    #_(tag {:closeable false :variant "solid"} "Simple tag")))
+    (tag {:closeable false :variant "solid"} "Simple tag")))
 
 (dr/defrouter TopRouter [this props]
   {:router-targets [Main]})
