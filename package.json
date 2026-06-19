@@ -1,0 +1,27 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "dependencies": {
+        "baseui": "^0.0.0-next-c10b736ad",
+        "styletron-engine-monolithic": "^1.0.0",
+        "styletron-react": "^6.1.1"
+    },
+    "devDependencies": {
+        "highlight.js": "^11.11.1",
+        "intl-messageformat": "^10.7.16",
+        "karma": "^6.4.4",
+        "karma-chrome-launcher": "^3.2.0",
+        "karma-cljs-test": "^0.1.0",
+        "npm-run-all": "^4.1.5",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
+        "react-grid-layout": "^1.5.2",
+        "react-icons": "^5.5.0",
+        "shadow-cljs": "^3.2.0",
+        "showdown": "^2.1.0"
+    },
+    "author": "",
+    "license": "MIT"
+}
