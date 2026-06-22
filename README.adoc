@@ -1,13 +1,6 @@
 == Fulcro + BaseUI tag component error reproduction
-ifdef::env-github[]
-:tip-caption: :bulb:
-:note-caption: :information_source:
-:important-caption: :heavy_exclamation_mark:
-:caution-caption: :fire:
-:warning-caption: :warning:
-endif::[]
 
-== Quickstart
+=== Quickstart
 
 ```Shell
 # The shadow-cljs compiler is a dependency.
@@ -15,10 +8,5 @@ yarn install # or npm install
 
 # 1. Start shadow-cljs frontend compilation server:
 npx shadow-cljs watch main
-# 2. Start the backend server:
-clj -A:dev -J-Dtrace -J-Dguardrails.enabled=true
-user=> (require 'development)
-user=> (in-ns 'development)
-development=> (start)
-# 3. Visit the application at http://localhost:3000
+# 2. Visit the application at http://localhost:3000
 ```
