@@ -7,8 +7,8 @@
         "baseui": "^0.0.0-next-c10b736ad",
         "styletron-engine-monolithic": "^1.0.0",
         "styletron-react": "^6.1.1",
-        "react": "^19.1.1",
-        "react-dom": "^19.1.1"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     },
     "devDependencies": {
         "shadow-cljs": "^3.2.0"
