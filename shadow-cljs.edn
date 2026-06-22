@@ -6,10 +6,8 @@
                  :asset-path "/js/main"
 
                  :modules {:main {:init-fn app.client/init}}
-                 ;; guardrails checks only during dev
                  :dev        {:compiler-options
-                              {:external-config {:guardrails {}
-                                                 :fulcro {:html-source-annotations? true}}}}
+                              {:external-config {:fulcro {:html-source-annotations? true}}}}
 
                  :devtools {:after-load app.client/refresh
                             :preloads [com.fulcrologic.devtools.chrome-preload app.development-preload]}}}}
